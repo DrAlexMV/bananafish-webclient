@@ -14,6 +14,9 @@ angular.module('bananafish.games').factory('Game', function (Restangular, $log) 
       return baseGames.get('').then(function (games) {
         return games.games
       });
+    },
+    findById: function (gameId) {
+      return baseGames.get(gameId);
     }
   };
 });

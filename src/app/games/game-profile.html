@@ -1,0 +1,27 @@
+<div>
+  <p class="lead">{{ gameProfile.game.name }}</p>
+  <hr/>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-3">
+          <a href="" class="thumbnail">
+            <img ng-src="{{ gameProfile.game.image }}" style="max-height: 190px" alt=""/>
+          </a>
+        </div>
+        <div class="col-md-9">
+          <h3>{{ gameProfile.game.deck }}</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="game-description" class="col-md-12">
+          <div ng-bind-html="gameProfile.game.description"></div>
+          <div ng-if="!gameProfile.game.description">
+            <h4>No Description Available for this Game</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
