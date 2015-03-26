@@ -6,7 +6,8 @@ angular.module('bananafish', [
   'ui.bootstrap',
   'bananafish.companies',
   'bananafish.games',
-  'bananafish.jobs'
+  'bananafish.jobs',
+  'bananafish.about'
 ])
   .config(function ($stateProvider, $urlRouterProvider, RestangularProvider) {
     $stateProvider
