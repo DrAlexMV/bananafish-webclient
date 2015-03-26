@@ -4,7 +4,9 @@ angular.module('bananafish', [
   'restangular',
   'ui.router',
   'ui.bootstrap',
-  'bananafish.companies'
+  'bananafish.companies',
+  'bananafish.games',
+  'bananafish.jobs'
 ])
   .config(function ($stateProvider, $urlRouterProvider, RestangularProvider) {
     $stateProvider
@@ -18,6 +20,6 @@ angular.module('bananafish', [
 
     // Restangular configuration
     RestangularProvider.setBaseUrl('http://localhost:5000/api/v1');
-    RestangularProvider.setDefaultHttpFields({ withCredentials: true });
+    //RestangularProvider.setDefaultHttpFields({ withCredentials: true });
   })
 ;

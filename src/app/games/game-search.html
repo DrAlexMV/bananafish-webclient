@@ -1,0 +1,21 @@
+<div>
+  <p class="lead">Games</p>
+  <hr/>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row" ng-repeat="game in gameSearch.games">
+        <div class="col-md-3">
+          <a class="thumbnail" href="">
+            <img ng-src="{{ game.image }}" alt="" style="max-height: 190px"/>
+          </a>
+        </div>
+        <div class="col-md-9">
+          <p class="lead">{{ game.name }}</p>
+          <hr/>
+          <h5>{{ game.deck }}</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
