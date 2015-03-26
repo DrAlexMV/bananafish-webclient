@@ -1,4 +1,37 @@
 <div>
-  About Us
+  <p class="lead">About Us</p>
   <hr/>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-12">
+          <h4>
+            Apiary:
+            <span><a href="{{ aboutUs.link }}"> {{ aboutUs.link }} </a></span>
+          </h4>
+          <hr/>
+          <div>
+            <h5>Team Commits: {{ aboutUs.commits }} </h5>
+          </div>
+        </div>
+        <hr/>
+      </div>
+      <div class="row" ng-repeat="member in aboutUs.members">
+        <div class="col-md-3">
+          <a class="thumbnail" href="">
+            <img ng-src="{{ member.image }}" alt="" style="max-height: 190px"/>
+          </a>
+        </div>
+        <div class="col-md-9">
+          <p class="lead">{{ member.name }}</p>
+          <hr/>
+          <h5>{{ member.bio}}</h5>
+          {{ member.responsibilities }}
+          <hr/>
+          <h5>Commits: {{ member.commits }}</h5>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
