@@ -1,8 +1,21 @@
 <div>
-  <p class="lead">Companies</p>
+  <p class="lead">Games</p>
   <hr/>
 
-  <ul class="unstyled-list">
-    <li ng-repeat="company in companySearch.companies"></li>
-  </ul>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row" ng-repeat="company in companySearch.companies">
+        <div class="col-md-3">
+          <a class="thumbnail" href="" ui-sref="bf.companies.profile({ id: company.company_id })">
+            <img ng-src="{{ company.image }}" alt="" style="max-height: 190px"/>
+          </a>
+        </div>
+        <div class="col-md-9">
+          <p class="lead">{{ company.name }}</p>
+          <hr/>
+          <h5>{{ company.deck }}</h5>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
