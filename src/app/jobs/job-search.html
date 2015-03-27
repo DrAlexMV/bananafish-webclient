@@ -1,7 +1,13 @@
 <div>
   <p class="lead">Jobs</p>
   <hr/>
-  <ul class="unstyled-list">
-    <li></li>
-  </ul>
+  <table class="table">
+    <tr ng-repeat="job in jobsSearch.jobs">
+      <td>{{job.Company}}</td>
+      <td>{{job.JobTitle}}</td>
+      <td>{{job.Location}}</td>
+      <td>{{job.Description}}</td>
+      <td><a ng-href="{{job.Url}}">See Indeed Job ad!</a></td>
+    </tr>
+  </table>
 </div>
