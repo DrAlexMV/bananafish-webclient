@@ -2,6 +2,8 @@
  * Created by alexanderventura on 3/26/15.
  */
 
+'use strict';
+
 angular.module('bananafish.about').factory('Team', function ($q) {
 
   var teamMembers = [
