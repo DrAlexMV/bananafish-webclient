@@ -3,7 +3,7 @@
  * Created by alexanderventura on 3/26/15.
  */
 
-'user strict';
+'use strict';
 
 angular.module('bananafish.about', []).config(function ($stateProvider) {
 
