@@ -1,0 +1,249 @@
+[18:43:10] Using gulpfile ~/bananafish-webclient/gulpfile.js
+[18:43:10] Starting 'scripts'...
+[18:43:11] Starting 'styles'...
+[18:43:11] gulp-inject Nothing to inject into index.less.
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+[18:43:13] Finished 'styles' after 2.35 s
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 95  col 33  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+[18:43:13] all files 14.52 kB
+[18:43:13] Finished 'scripts' after 2.66 s
+[18:43:13] Starting 'inject'...
+[18:43:13] gulp-inject 1 files into 404.html.
+[18:43:13] gulp-inject 1 files into index.html.
+[18:43:13] gulp-inject 17 files into 404.html.
+[18:43:13] gulp-inject 17 files into index.html.
+[18:43:13] Finished 'inject' after 198 ms
+[18:43:13] Starting 'watch'...
+[18:43:13] Finished 'watch' after 36 ms
+[18:43:13] Starting 'serve'...
+[18:43:13] Finished 'serve' after 26 ms
+[BS] [BrowserSync SPA] Running...
+[BS] Access URLs:
+ --------------------------------------
+       Local: http://localhost:3000/
+    External: http://23.253.89.46:3000/
+ --------------------------------------
+          UI: http://localhost:3001
+ UI External: http://23.253.89.46:3001
+ --------------------------------------
+[BS] Serving files from: .tmp/serve
+[BS] Serving files from: src
+[19:13:09] Starting 'scripts'...
+[19:13:09] Starting 'styles'...
+[19:13:09] gulp-inject Nothing to inject into index.less.
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+[BS] 2 files changed (index.css, vendor.css)
+[19:13:11] Finished 'styles' after 2.28 s
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 95  col 33  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+[19:13:11] all files 14.52 kB
+[19:13:11] Finished 'scripts' after 2.38 s
+[19:13:11] Starting 'inject'...
+[19:13:11] gulp-inject 1 files into 404.html.
+[19:13:11] gulp-inject 1 files into index.html.
+[19:13:11] gulp-inject 17 files into 404.html.
+[19:13:11] gulp-inject 17 files into index.html.
+[19:13:11] Finished 'inject' after 76 ms
+[19:13:28] Starting 'scripts'...
+[19:13:28] Starting 'styles'...
+[19:13:28] gulp-inject Nothing to inject into index.less.
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+[BS] 2 files changed (index.css, vendor.css)
+[19:13:30] Finished 'styles' after 1.99 s
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 95  col 33  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+[19:13:30] all files 14.52 kB
+[19:13:30] Finished 'scripts' after 2.08 s
+[19:13:30] Starting 'inject'...
+[19:13:30] gulp-inject 1 files into 404.html.
+[19:13:30] gulp-inject 1 files into index.html.
+[19:13:30] gulp-inject 18 files into 404.html.
+[19:13:30] gulp-inject 18 files into index.html.
+[19:13:30] Finished 'inject' after 60 ms
+[BS] File changed: src/app/companies/company-search.html
+[22:05:18] Starting 'scripts'...
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/jobs/job-search.controller.js
+  line 11  col 3   'Jobs' is not defined.
+  line 7   col 81  'Job' is defined but never used.
+  line 7   col 73  '$scope' is defined but never used.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 14  col 25  Missing semicolon.
+  line 18  col 33  Missing semicolon.
+  line 9   col 18  'Restangular' is not defined.
+  line 7   col 60  '$q' is defined but never used.
+
+  ⚠  4 warnings
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+[22:05:18] all files 9.42 kB
+[22:05:18] Finished 'scripts' after 149 ms
