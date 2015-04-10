@@ -385,3 +385,924 @@
 
 [00:00:56] all files 10.09 kB
 [00:00:56] Finished 'scripts' after 143 ms
+[BS] File changed: src/components/navbar/navbar.html
+[BS] File changed: src/components/navbar/navbar.html
+[00:13:22] Starting 'scripts'...
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/jobs/job-search.controller.js
+  line 11  col 3   'Jobs' is not defined.
+  line 7   col 81  'Job' is defined but never used.
+  line 7   col 73  '$scope' is defined but never used.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 14  col 25  Missing semicolon.
+  line 18  col 33  Missing semicolon.
+  line 9   col 18  'Restangular' is not defined.
+  line 7   col 60  '$q' is defined but never used.
+
+  ⚠  4 warnings
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/tests/test-search.controller.js
+  line 14  col 3   Missing semicolon.
+  line 11  col 3   'Tests' is not defined.
+  line 7   col 74  'Test' is defined but never used.
+
+  ⚠  3 warnings
+
+[00:13:22] all files 10.07 kB
+[00:13:22] Finished 'scripts' after 136 ms
+[00:15:20] Starting 'scripts'...
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/jobs/job-search.controller.js
+  line 11  col 3   'Jobs' is not defined.
+  line 7   col 81  'Job' is defined but never used.
+  line 7   col 73  '$scope' is defined but never used.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 14  col 25  Missing semicolon.
+  line 18  col 33  Missing semicolon.
+  line 9   col 18  'Restangular' is not defined.
+  line 7   col 60  '$q' is defined but never used.
+
+  ⚠  4 warnings
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/tests/test-search.controller.js
+  line 11  col 0   Identifier 'run_unittest' is not in camel case.
+  line 14  col 3   Missing semicolon.
+  line 11  col 3   'Tests' is not defined.
+  line 7   col 74  'Test' is defined but never used.
+
+  ⚠  4 warnings
+
+[00:15:20] all files 10.08 kB
+[00:15:20] Finished 'scripts' after 176 ms
+[00:22:00] Starting 'scripts'...
+[BS] File changed: src/app/jobs/job-search.html
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/jobs/job-search.controller.js
+  line 11  col 3   'Jobs' is not defined.
+  line 7   col 81  'Job' is defined but never used.
+  line 7   col 73  '$scope' is defined but never used.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 14  col 25  Missing semicolon.
+  line 18  col 33  Missing semicolon.
+  line 9   col 18  'Restangular' is not defined.
+  line 7   col 60  '$q' is defined but never used.
+
+  ⚠  4 warnings
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/tests/test-search.controller.js
+  line 14  col 3   Missing semicolon.
+  line 11  col 3   'Tests' is not defined.
+  line 7   col 74  'Test' is defined but never used.
+
+  ⚠  3 warnings
+
+[00:22:00] all files 10.09 kB
+[00:22:00] Finished 'scripts' after 151 ms
+[00:24:37] Starting 'scripts'...
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/jobs/job-search.controller.js
+  line 11  col 3   'Jobs' is not defined.
+  line 7   col 81  'Job' is defined but never used.
+  line 7   col 73  '$scope' is defined but never used.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 14  col 25  Missing semicolon.
+  line 18  col 33  Missing semicolon.
+  line 9   col 18  'Restangular' is not defined.
+  line 7   col 60  '$q' is defined but never used.
+
+  ⚠  4 warnings
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/tests/test-search.controller.js
+  line 14  col 3   Missing semicolon.
+  line 11  col 3   'Tests' is not defined.
+  line 7   col 69  'Test' is defined but never used.
+
+  ⚠  3 warnings
+
+[00:24:38] all files 10.09 kB
+[00:24:38] Finished 'scripts' after 138 ms
+[00:28:04] Starting 'scripts'...
+[BS] File changed: src/app/jobs/job-search.html
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/jobs/job-search.controller.js
+  line 11  col 3   'Jobs' is not defined.
+  line 7   col 81  'Job' is defined but never used.
+  line 7   col 73  '$scope' is defined but never used.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 14  col 25  Missing semicolon.
+  line 18  col 33  Missing semicolon.
+  line 9   col 18  'Restangular' is not defined.
+  line 7   col 60  '$q' is defined but never used.
+
+  ⚠  4 warnings
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/tests/test-search.controller.js
+  line 14  col 3   Missing semicolon.
+  line 11  col 3   'Tests' is not defined.
+  line 7   col 69  'Test' is defined but never used.
+
+  ⚠  3 warnings
+
+[00:28:04] all files 10.09 kB
+[00:28:04] Finished 'scripts' after 144 ms
+[00:36:46] Starting 'scripts'...
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/jobs/job-search.controller.js
+  line 11  col 3   'Jobs' is not defined.
+  line 7   col 81  'Job' is defined but never used.
+  line 7   col 73  '$scope' is defined but never used.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 14  col 25  Missing semicolon.
+  line 18  col 33  Missing semicolon.
+  line 9   col 18  'Restangular' is not defined.
+  line 7   col 60  '$q' is defined but never used.
+
+  ⚠  4 warnings
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/tests/test-search.controller.js
+  line 14  col 3  Missing semicolon.
+
+  ⚠  1 warning
+
+[00:36:46] all files 10.09 kB
+[00:36:46] Finished 'scripts' after 133 ms
+[00:40:48] Starting 'scripts'...
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/jobs/job-search.controller.js
+  line 11  col 3   'Jobs' is not defined.
+  line 7   col 81  'Job' is defined but never used.
+  line 7   col 73  '$scope' is defined but never used.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 14  col 25  Missing semicolon.
+  line 18  col 33  Missing semicolon.
+  line 9   col 18  'Restangular' is not defined.
+  line 7   col 60  '$q' is defined but never used.
+
+  ⚠  4 warnings
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+[00:40:48] all files 10.09 kB
+[00:40:48] Finished 'scripts' after 132 ms
+[00:41:39] Starting 'scripts'...
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/jobs/job-search.controller.js
+  line 11  col 3   'Jobs' is not defined.
+  line 7   col 81  'Job' is defined but never used.
+  line 7   col 73  '$scope' is defined but never used.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 14  col 25  Missing semicolon.
+  line 18  col 33  Missing semicolon.
+  line 9   col 18  'Restangular' is not defined.
+  line 7   col 60  '$q' is defined but never used.
+
+  ⚠  4 warnings
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+[00:41:39] all files 10.1 kB
+[00:41:39] Finished 'scripts' after 136 ms
+[01:09:46] Starting 'scripts'...
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/jobs/job-search.controller.js
+  line 11  col 3   'Jobs' is not defined.
+  line 7   col 81  'Job' is defined but never used.
+  line 7   col 73  '$scope' is defined but never used.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 14  col 25  Missing semicolon.
+  line 18  col 33  Missing semicolon.
+  line 9   col 18  'Restangular' is not defined.
+  line 7   col 60  '$q' is defined but never used.
+
+  ⚠  4 warnings
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/tests/test-search.controller.js
+  line 11  col 53  Strings must use singlequote.
+  line 12  col 0   Identifier 'test_result' is not in camel case.
+
+  ⚠  2 warnings
+
+[01:09:46] all files 10.05 kB
+[01:09:46] Finished 'scripts' after 157 ms
+[01:12:02] Starting 'scripts'...
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/jobs/job-search.controller.js
+  line 11  col 3   'Jobs' is not defined.
+  line 7   col 81  'Job' is defined but never used.
+  line 7   col 73  '$scope' is defined but never used.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 14  col 25  Missing semicolon.
+  line 18  col 33  Missing semicolon.
+  line 9   col 18  'Restangular' is not defined.
+  line 7   col 60  '$q' is defined but never used.
+
+  ⚠  4 warnings
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/tests/test-search.controller.js
+  line 11  col 53  Strings must use singlequote.
+  line 12  col 0   Identifier 'test_result' is not in camel case.
+
+  ⚠  2 warnings
+
+[01:12:02] all files 10.17 kB
+[01:12:02] Finished 'scripts' after 130 ms
+[01:16:19] Starting 'scripts'...
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/jobs/job-search.controller.js
+  line 11  col 3   'Jobs' is not defined.
+  line 7   col 81  'Job' is defined but never used.
+  line 7   col 73  '$scope' is defined but never used.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 14  col 25  Missing semicolon.
+  line 18  col 33  Missing semicolon.
+  line 9   col 18  'Restangular' is not defined.
+  line 7   col 60  '$q' is defined but never used.
+
+  ⚠  4 warnings
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/tests/test-search.controller.js
+  line 11  col 53  Strings must use singlequote.
+
+  ⚠  1 warning
+
+[01:16:19] all files 10.15 kB
+[01:16:19] Finished 'scripts' after 129 ms
+[01:17:28] Starting 'scripts'...
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/jobs/job-search.controller.js
+  line 11  col 3   'Jobs' is not defined.
+  line 7   col 81  'Job' is defined but never used.
+  line 7   col 73  '$scope' is defined but never used.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 14  col 25  Missing semicolon.
+  line 18  col 33  Missing semicolon.
+  line 9   col 18  'Restangular' is not defined.
+  line 7   col 60  '$q' is defined but never used.
+
+  ⚠  4 warnings
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/tests/test-search.controller.js
+  line 11  col 53  Strings must use singlequote.
+  line 13  col 5   'console' is not defined.
+
+  ⚠  2 warnings
+
+[01:17:28] all files 10.18 kB
+[01:17:28] Finished 'scripts' after 134 ms
+[01:18:57] Starting 'scripts'...
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/jobs/job-search.controller.js
+  line 11  col 3   'Jobs' is not defined.
+  line 7   col 81  'Job' is defined but never used.
+  line 7   col 73  '$scope' is defined but never used.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 14  col 25  Missing semicolon.
+  line 18  col 33  Missing semicolon.
+  line 9   col 18  'Restangular' is not defined.
+  line 7   col 60  '$q' is defined but never used.
+
+  ⚠  4 warnings
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/tests/test-search.controller.js
+  line 11  col 53  Strings must use singlequote.
+  line 13  col 0   Identifier 'test_result' is not in camel case.
+  line 13  col 5   'console' is not defined.
+
+  ⚠  3 warnings
+
+[01:18:57] all files 10.19 kB
+[01:18:57] Finished 'scripts' after 129 ms
+[01:20:22] Starting 'scripts'...
+
+/root/bananafish-webclient/src/app/companies/companies.js
+  line 25  col 27  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/games/games.js
+  line 26  col 24  Missing semicolon.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/jobs/job-search.controller.js
+  line 11  col 3   'Jobs' is not defined.
+  line 7   col 81  'Job' is defined but never used.
+  line 7   col 73  '$scope' is defined but never used.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/main/main.controller.js
+  line 4  col 37  '$scope' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Company.factory.js
+  line 8  col 82  '$log' is defined but never used.
+
+  ⚠  1 warning
+
+
+/root/bananafish-webclient/src/app/services/Games.factory.js
+  line 15  col 27  Missing semicolon.
+  line 8   col 75  '$log' is defined but never used.
+
+  ⚠  2 warnings
+
+
+/root/bananafish-webclient/src/app/services/Jobs.factory.js
+  line 14  col 25  Missing semicolon.
+  line 18  col 33  Missing semicolon.
+  line 9   col 18  'Restangular' is not defined.
+  line 7   col 60  '$q' is defined but never used.
+
+  ⚠  4 warnings
+
+
+/root/bananafish-webclient/src/app/services/Team.factory.js
+  line 71  col 4   Missing semicolon.
+  line 63  col 24  '_' is not defined.
+  line 63  col 33  '_' is not defined.
+
+  ⚠  3 warnings
+
+
+/root/bananafish-webclient/src/app/tests/test-search.controller.js
+  line 11  col 53  Strings must use singlequote.
+  line 12  col 0   Identifier 'test_result' is not in camel case.
+  line 13  col 0   Identifier 'test_result' is not in camel case.
+  line 13  col 5   'console' is not defined.
+
+  ⚠  4 warnings
+
+[01:20:22] all files 10.21 kB
+[01:20:22] Finished 'scripts' after 139 ms
