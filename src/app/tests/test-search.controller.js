@@ -4,7 +4,7 @@
 
 'use strict';
 
-angular.module('bananafish.tests').controller('TestSearchCtrl', function(Test){
+angular.module('bananafish.tests').controller('TestsCtrl', function(Test){
 
   var vm = this;
 
