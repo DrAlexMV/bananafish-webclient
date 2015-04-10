@@ -4,11 +4,11 @@
 
 'use strict';
 
-angular.module('bananafish.jobs').controller('JobSearchCtrl', function ($scope, Job) {
+angular.module('bananafish.jobs').controller('JobSearchCtrl', function (Jobs) {
 
   var vm = this;
 
-  Jobs.all().then(function (jobs) {
+  Jobs.getJobs().then(function (jobs) {
     vm.jobs = jobs;
   });
 });
