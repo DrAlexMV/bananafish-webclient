@@ -10,7 +10,7 @@ angular.module('bananafish.tests', []).config(function($stateProvider){
 
   $stateProvider
   .state('bf.tests', { url: 'tests/', abstract: true, template: '<ui-view></ui-view>' })
-    .state('bf.tests', {
+    .state('bf.tests.search', {
       url: 'search',
       templateUrl: pathToTemplates + 'test-search.html',
       controller: 'TestSearchCtrl as testSearch'
