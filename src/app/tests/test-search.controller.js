@@ -4,11 +4,11 @@
 
 'use strict';
 
-angular.module('bananafish.tests').controller('TestsCtrl', function(Test){
+angular.module('bananafish.tests').controller('TestSearchCtrl', function(Test){
 
   var vm = this;
 
-  Test.get().then(function(tests){
+  Test.all().then(function(tests){
     vm.tests = tests;
   });
-})
+});
