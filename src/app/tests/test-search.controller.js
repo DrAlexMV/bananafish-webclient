@@ -4,11 +4,11 @@
 
 'use strict';
 
-angular.module('bananafish.tests').controller('TestSearchCtrl', function(Test){
+angular.module('bananafish.tests').controller('TestSearchCtrl', function($scope, $http){
 
   var vm = this;
 
-  Test.all().then(function(tests){
-    vm.tests = tests;
+  $http.get("http://23.253.89.46:5000/api/v1/tests/").success(function(response){
+    vm.results = response.test_result;
   });
 });
