@@ -9,5 +9,10 @@ angular.module('bananafish.tests', []).config(function($stateProvider){
   var pathToTemplates = 'app/tests/';
 
   $stateProvider
-  .state('bf.tests', { url: 'tests/', templateUrl: pathToTemplates + 'test-search.html', controller: 'TestSearchCtrl as testSearch' });
+  .state('bf.tests', { url: 'tests/', abstract: true, template: '<ui-view></ui-view>' })
+    .state('bf.tests.search', {
+      url: 'search',
+      templateUrl: pathToTemplates + 'test-search.html',
+      controller: 'TestSearchCtrl as testSearch'
+    });
 });
