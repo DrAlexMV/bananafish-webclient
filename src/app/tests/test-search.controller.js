@@ -8,7 +8,7 @@ angular.module('bananafish.tests').controller('TestsCtrl', function(Test){
 
   var vm = this;
 
-  Tests.get().then(function(tests){
+  Test.get().then(function(tests){
     vm.tests = tests;
   });
 })
