@@ -13,6 +13,6 @@ angular.module('bananafish.tests', []).config(function($stateProvider){
     .state('bf.tests.search', {
       url: 'search',
       templateUrl: pathToTemplates + 'test-search.html',
-      controller: 'TestsCtrl as tests'
+      controller: 'TestsCtrl as testSearch'
     });
 });
