@@ -10,6 +10,6 @@ angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function
   var vm = this;
 
   $http.get("http://private-anon-0cec3ef3e-periodictable.apiary-mock.com/api/element").success(function(response){
-    vm.results = response.test_result;
+    vm.results = response;
   });
 });
