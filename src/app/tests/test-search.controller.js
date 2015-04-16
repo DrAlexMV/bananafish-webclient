@@ -10,6 +10,5 @@ angular.module('bananafish.tests').controller('TestSearchCtrl', function($http){
 
   $http.get("http://23.253.89.46:5000/api/v1/tests/").success(function(response){
     vm.results = response.test_result;
-    console.log(response.test_result);
   });
 });
