@@ -8,8 +8,8 @@ angular.module('bananafish', [
   'bananafish.games',
   'bananafish.jobs',
   'bananafish.tests',
-  'bananafish.elementalists',
-  'bananafish.about'
+  'bananafish.about',
+  'bananafish.elementalists'
 ])
   .config(function ($stateProvider, $urlRouterProvider, RestangularProvider) {
     $stateProvider

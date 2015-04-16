@@ -10,7 +10,7 @@ angular.module('bananafish.elementalists', []).config(function($stateProvider){
 
   $stateProvider
     .state('bf.elementalists', { url: 'elementalists/', abstract: true, template: '<ui-view></ui-view>' })
-    .state('bf.elementalists.search', {
+    .state('bf.elementalists', {
       url: 'search',
       templateUrl: pathToTemplates + 'elementalists-search.html',
       controller: 'ElemSearchCtrl as ElemSearch'
