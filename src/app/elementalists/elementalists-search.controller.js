@@ -8,7 +8,7 @@ angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function
 
   var vm = this;
 
-  $http.get("http://private-anon-0cec3ef3e-periodictable.apiary-mock.com/api/element").success(function(response){
+  $http.get("http://private-8bae8-periodictable.apiary-mock.com/api/element").success(function(response){
     vm.results = response.data;
     console.log(response.data);
   }).error(function(response){
