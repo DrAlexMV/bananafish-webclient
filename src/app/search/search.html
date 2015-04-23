@@ -1,0 +1,33 @@
+<div class="col-md-12">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well clearfix">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                      <span class="glyphicon glyphicon-search"></span>
+                    </span>
+                    <input type="search" class="form-control" placeholder="Search for games" ng-model="search.searchQuery"/>
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary" ng-click="search.searchWithQuery()">Search</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="lead">Search Results <span ng-if="search.lastQuery">- {{ search.lastQuery }}</span></p>
+            <hr/>
+
+            <div class="row" ng-repeat="result in search.currentSearchResults">
+                <div class="col-md-12">
+                    <h5>
+                        <a ui-sref="bf.games.profile({ id: result.id })">
+                            {{ result.name }}
+                        </a>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

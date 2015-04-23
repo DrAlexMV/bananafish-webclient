@@ -3,6 +3,8 @@
  * Created by alexanderventura on 3/26/15.
  */
 
+'use strict';
+
 angular.module('bananafish.about', []).config(function ($stateProvider) {
 
   var pathToTemplates = 'app/about/';
