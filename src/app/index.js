@@ -24,7 +24,8 @@ angular.module('bananafish', [
 
     // Restangular configuration
 
-    RestangularProvider.setBaseUrl('http://localhost:5000/api/v1');
+    //RestangularProvider.setBaseUrl('http://localhost:5000/api/v1');
+    RestangularProvider.setBaseUrl('http://23.253.89.46:5000/api/v1');
     // RestangularProvider.setBaseUrl('23.253.89.46:5000');
     //RestangularProvider.setDefaultHttpFields({ withCredentials: true });
   });
