@@ -39,7 +39,7 @@ angular.module('bananafish.about').factory('Team', function ($q) {
     {
       name: 'Nico Vasquez',
       bio: 'My name is nico and this is my bio.',
-      commits: 12,
+      commits: 34,
       responsibilities: 'I worked on the backend, data collection, and helped with documentation.',
       image: 'http://sportfishingweekly.com/wp-content/uploads/2013/07/banana-fish1-255x300.jpg'
     }
