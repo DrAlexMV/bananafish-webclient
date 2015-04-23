@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('zbananafish', [
+angular.module('bananafish', [
   'restangular',
   'ui.router',
   'ui.bootstrap',
