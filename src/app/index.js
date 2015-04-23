@@ -1,10 +1,9 @@
 'use strict';
 
-angular.module('bananafish', [
+angular.module('zbananafish', [
   'restangular',
   'ui.router',
   'ui.bootstrap',
-  'bananafish.home',
   'bananafish.companies',
   'bananafish.games',
   'bananafish.jobs',
