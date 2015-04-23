@@ -25,7 +25,7 @@ angular.module('bananafish.about').factory('Team', function ($q) {
     {
       name: 'Steven Zvonek',
       bio: 'I am Steven',
-      commits: 12,
+      commits: 20,
       responsibilities: 'Managed the Rackspace server, worked on Apiary, commented the models, made UML diagram, helped write the report',
       image: 'http://sportfishingweekly.com/wp-content/uploads/2013/07/banana-fish1-255x300.jpg'
     },
