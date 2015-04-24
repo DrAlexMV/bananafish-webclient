@@ -25,21 +25,21 @@ angular.module('bananafish.about').factory('Team', function ($q) {
     {
       name: 'Steven Zvonek',
       bio: 'I am Steven',
-      commits: 20,
+      commits: 26,
       responsibilities: 'Managed the Rackspace server, worked on Apiary, commented the models, made UML diagram, helped write the report',
       image: 'http://sportfishingweekly.com/wp-content/uploads/2013/07/banana-fish1-255x300.jpg'
     },
     {
       name: 'Ruben Baeza',
       bio: 'Stuff',
-      commits: 4,
+      commits: 60,
       responsibilities: 'Handled "Jobs" section of website. Bugged Everybody',
       image: 'http://sportfishingweekly.com/wp-content/uploads/2013/07/banana-fish1-255x300.jpg'
     },
     {
       name: 'Nico Vasquez',
       bio: 'My name is nico and this is my bio.',
-      commits: 34,
+      commits: 36,
       responsibilities: 'I worked on the backend, data collection, and helped with documentation.',
       image: 'http://sportfishingweekly.com/wp-content/uploads/2013/07/banana-fish1-255x300.jpg'
     }
