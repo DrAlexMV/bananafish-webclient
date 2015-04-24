@@ -8,7 +8,7 @@ angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function
 
   var vm = this;
 
-  $http.get("104.239.138.103/api/element").success(function(response){
+  $http.get("http://104.239.138.103/api/element").success(function(response){
     vm.results = _.sortBy(response, 'density');
 
   }).error(function(response){
