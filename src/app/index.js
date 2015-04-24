@@ -4,7 +4,6 @@ angular.module('bananafish', [
   'restangular',
   'ui.router',
   'ui.bootstrap',
-  'bananafish.home',
   'bananafish.companies',
   'bananafish.games',
   'bananafish.jobs',
