@@ -21,4 +21,8 @@ angular.module('bananafish.about').controller('AboutUsCtrl', function (Team) {
     vm.commits = commits;
   });
 
+  Team.getTeamIssues().then(function (issues) {
+    vm.issues = issues;
+  });
+
 });

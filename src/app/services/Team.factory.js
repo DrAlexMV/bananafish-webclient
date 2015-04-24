@@ -12,6 +12,7 @@ angular.module('bananafish.about').factory('Team', function ($q) {
       bio: 'Born from a cow and a raven. Badass extraordinaire. Milkier than a raven,' +
       'with less feathers than a cow. Sprouted from a banana tree. Cousin of a fish.',
       commits: 20,
+      issues: 7,
       responsibilities: 'Everything minus the report. Because fuck that.',
       image: 'http://sportfishingweekly.com/wp-content/uploads/2013/07/banana-fish1-255x300.jpg'
     },
@@ -19,6 +20,7 @@ angular.module('bananafish.about').factory('Team', function ($q) {
       name: 'Andy Tang',
       bio: 'Haikus are easy, but sometimes they don\'t make sense, refigerator',
       commits: 12,
+      issues: 0,
       responsibilities: 'Handled more than half of Apiary and a little bit of the Technical Report.',
       image: 'http://sportfishingweekly.com/wp-content/uploads/2013/07/banana-fish1-255x300.jpg'
     },
@@ -26,6 +28,7 @@ angular.module('bananafish.about').factory('Team', function ($q) {
       name: 'Steven Zvonek',
       bio: 'I am Steven',
       commits: 26,
+      issues: 7,
       responsibilities: 'Managed the Rackspace server, worked on Apiary, commented the models, made UML diagram, helped write the report',
       image: 'http://sportfishingweekly.com/wp-content/uploads/2013/07/banana-fish1-255x300.jpg'
     },
@@ -33,6 +36,7 @@ angular.module('bananafish.about').factory('Team', function ($q) {
       name: 'Ruben Baeza',
       bio: 'Stuff',
       commits: 60,
+      issues: 7,
       responsibilities: 'Handled "Jobs" section of website. Bugged Everybody',
       image: 'http://sportfishingweekly.com/wp-content/uploads/2013/07/banana-fish1-255x300.jpg'
     },
@@ -40,6 +44,7 @@ angular.module('bananafish.about').factory('Team', function ($q) {
       name: 'Nico Vasquez',
       bio: 'My name is nico and this is my bio.',
       commits: 36,
+      issues: 7,
       responsibilities: 'I worked on the backend, data collection, and helped with documentation.',
       image: 'http://sportfishingweekly.com/wp-content/uploads/2013/07/banana-fish1-255x300.jpg'
     }
@@ -61,6 +66,16 @@ angular.module('bananafish.about').factory('Team', function ($q) {
       };
 
       deferred.resolve(_.reduce(_.pluck(teamMembers, 'commits'), sum, 0));
+      return deferred.promise;
+    },
+    getTeamIssues: function () {
+      var deferred = $q.defer();
+
+      var sum = function (a, b) {
+        return a + b;
+      };
+
+      deferred.resolve(_.reduce(_.pluck(teamMembers, 'issues'), sum, 0));
       return deferred.promise;
     },
     getApiaryLink: function () {
