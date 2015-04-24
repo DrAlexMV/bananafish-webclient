@@ -3,8 +3,17 @@
   <hr/>
 
   <table class="table">
-    <tr>
-      <td><pre>{{ElemSearch.results}}</pre></td>
-    </tr>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Density</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="e in ElemSearch.results">
+          <td> {{ e.element }}</td>
+          <td> {{ e.density }}</td>
+        </tr>
+    </tbody>
   </table>
 </div>
