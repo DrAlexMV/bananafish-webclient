@@ -8,7 +8,7 @@ angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function
 
   var vm = this;
   
-  response = {
+  var response = {
   "1": {
     "atomic_number": 1, 
     "atomic_radius": 0.79, 
@@ -2843,6 +2843,8 @@ angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function
   }
 };
 
-vm.results = _.sortBy(response, 'density');
+var json = JSON.parse(response);
+
+vm.results = _.sortBy(json, 'density');
   
 });
