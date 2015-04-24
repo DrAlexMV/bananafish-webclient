@@ -10,7 +10,8 @@ angular.module('bananafish', [
   'bananafish.tests',
   'bananafish.about',
   'bananafish.elementalists',
-  'bananafish.search'
+  'bananafish.search',
+  'bananafish.home'
 ])
   .config(function ($stateProvider, $urlRouterProvider, RestangularProvider) {
     $stateProvider
