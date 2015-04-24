@@ -1,18 +1,24 @@
 <div>
-  <p class="lead">Elementalists: Elements by Density</p>
+  <p class="lead">Elements</p>
   <hr/>
 
   <table class="table">
     <thead>
       <tr>
-        <th>Name</th>
-        <th>Density</th>
+        <th ng-click="sort(atomic_number)">Atomic Number</th>
+        <th ng-click="sort(element)">Element Name</th>
+        <th ng-click="sort(density)">Density</th>
+        <th ng-click="sort(atomic_radius)">Atomic Radius</th>
+        <th ng-click="sort(boiling_point_k)">Boiling Point(K)</th>
       </tr>
     </thead>
     <tbody>
         <tr ng-repeat="e in ElemSearch.results">
+          <td> {{ e.atomic_number }}</td>
           <td> {{ e.element }}</td>
-          <td> {{ e.density }}</td>
+          <td> {{ e.density }}</td> 
+          <td> {{ e.atomic_radius }}</td> 
+          <td> {{ e.boiling_point_k }}</td>
         </tr>
     </tbody>
   </table>
