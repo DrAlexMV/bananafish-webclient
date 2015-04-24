@@ -4,7 +4,7 @@
 
 'use strict';
 
-angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function(){
+angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function($http){
 
   var vm = this;
   
