@@ -19,10 +19,14 @@
             <p class="lead">Search Results <span ng-if="search.lastQuery">- {{ search.lastQuery }}</span></p>
             <hr/>
 
+            <div class="col-md-offset-4 col-md-4" ng-if="search.waitingForResults">
+                <i class="fa fa-spinner fa-spin fa-2x"></i>
+            </div>
+
             <div class="row" ng-repeat="result in search.currentSearchResults">
                 <div class="col-md-12">
                     <h5>
-                        <a ui-sref="bf.games.profile({ id: result.id })">
+                        <a ng-href="#" ng-click="search.moveToSpecificProfilePage(result)">
                             {{ result.name }}
                         </a>
                     </h5>

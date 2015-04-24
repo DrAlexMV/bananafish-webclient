@@ -6,6 +6,8 @@
 
 angular.module('bananafish.search').factory('Search', function (Restangular, $log, $q) {
 
+	var baseSearch = Restangular.all('search');
+
 	var mockData = {
 		"results": [
 			{
@@ -35,15 +37,11 @@ angular.module('bananafish.search').factory('Search', function (Restangular, $lo
 		]
 	};
 
-	var baseSearch = Restangular.all('search');
-
 	return {
 		searchWithQuery: function (query) {
-			var deferred = $q.defer();
-
-			deferred.resolve(mockData.results);
-
-			return deferred.promise;
+			return baseSearch.customGET('', { s: query }).then(function (searchResults) {
+				return searchResults.results;
+			});
 		}
 	};
 });
