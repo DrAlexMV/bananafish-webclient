@@ -5,7 +5,7 @@
   <table class="table">
     <thead>
       <tr>
-        <th ng-click="sort(atomic_number)">Atomic Number</th>
+        <th ng-click="sort('atomic_number')">Atomic Number</th>
         <th ng-click="sort(element)">Element Name</th>
         <th ng-click="sort(density)">Density</th>
         <th ng-click="sort(atomic_radius)">Atomic Radius</th>
@@ -16,8 +16,8 @@
         <tr ng-repeat="e in ElemSearch.results">
           <td> {{ e.atomic_number }}</td>
           <td> {{ e.element }}</td>
-          <td> {{ e.density }}</td> 
-          <td> {{ e.atomic_radius }}</td> 
+          <td> {{ e.density }}</td>
+          <td> {{ e.atomic_radius }}</td>
           <td> {{ e.boiling_point_k }}</td>
         </tr>
     </tbody>
