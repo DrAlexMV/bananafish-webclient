@@ -2845,7 +2845,7 @@ angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function
 
   function sortbyAnumber(x, y){
       return x.atomic_number - y.atomic_number;
-  };
+  }
 
   vm.sort(function(name){
     if(name == "atomic")
