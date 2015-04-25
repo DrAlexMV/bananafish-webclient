@@ -2843,6 +2843,6 @@ angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function
   }
 };
 
-  vm.results = _.sortBy(vm.result, 'density');
+  vm.results = _.sortBy(vm.result, 'atomic_number');
 
 });
