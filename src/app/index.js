@@ -15,8 +15,8 @@ angular.module('bananafish', [
 ])
   .config(function ($stateProvider, $urlRouterProvider, RestangularProvider) {
     $stateProvider
-      .state('bf.home', {
-        url: '/',
+      .state('bf', {
+        url: '/home.html',
         templateUrl: 'app/main/main.html',
         controller: 'MainCtrl as main'
       });
