@@ -2843,11 +2843,6 @@ angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function
   }
 };
 
-  function sortbyAnumber(x, y){
-      return x.atomic_number - y.atomic_number;
-  }
-
-  vm.results = vm.result.sort(sortbyAnumber);
-
+  vm.results = _.sortBy(vm.result, 'density');
 
 });
