@@ -24,13 +24,16 @@
             </div>
 
             <div class="row" ng-repeat="result in search.currentSearchResults">
-                <div class="col-md-12">
+                <div class="col-md-4">
                     <h5>
                         <a ng-href="#" ng-click="search.moveToSpecificProfilePage(result)">
                             {{ result.name }}
                         </a>
                     </h5>
-                </div>
+		</div>
+                <div class="col-md-8">
+			{{ result.context }}
+		</div>
             </div>
         </div>
     </div>
