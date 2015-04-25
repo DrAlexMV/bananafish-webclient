@@ -16,11 +16,6 @@ describe('controllers', function(){
       $scope: scope
     });
     
-    $stateProvider
-      .state(bf.main, {
-        url: 'app/home/home.html'
-      })
-
     expect(angular.isArray(scope.awesomeThings)).toBeTruthy();
     expect(scope.awesomeThings.length > 5).toBeTruthy();
   }));
