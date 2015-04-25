@@ -8,7 +8,7 @@ angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function
 
   var vm = this;
 
-  vm.results = {
+  var data = {
   "1": {
     "atomic_number": 1,
     "atomic_radius": 0.79,
@@ -2847,7 +2847,7 @@ angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function
       return x.atomic_number - y.atomic_number;
   }
 
-  vm.results = vm.results.sort(sortbyAnumber);
+  vm.results = data.sort(sortbyAnumber);
 
 
 });
