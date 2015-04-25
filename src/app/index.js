@@ -21,7 +21,7 @@ angular.module('bananafish', [
         controller: 'MainCtrl as main'
       });
 
-    $urlRouterProvider.otherwise('/#');
+    $urlRouterProvider.otherwise('/home');
 
     // Restangular configuration
 

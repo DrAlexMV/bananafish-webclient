@@ -11,7 +11,7 @@ angular.module('bananafish.home', []).config(function ($stateProvider) {
 
   $stateProvider
     .state('bf.home', {
-      url: '#',
+      url: '/home',
       templateUrl: pathToTemplates + 'home.html',
       controller: 'HomeCtrl as home'
     });
