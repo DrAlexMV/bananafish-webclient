@@ -2843,7 +2843,7 @@ angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function
   }
 };
 
-  $scope.stringName = 'density';
+  $scope.stringName = 'atomic_number';
 
   $scope.setString = function(string){
     $scope.stringName = string;
