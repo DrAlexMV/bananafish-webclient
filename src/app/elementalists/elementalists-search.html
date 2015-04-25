@@ -5,11 +5,11 @@
   <table class="table">
     <thead>
       <tr>
-        <th ng-click="sort() in ElemSearch">Atomic Number</th>
-        <th ng-click="sort(element)">Element Name</th>
-        <th ng-click="sort(density)">Density</th>
-        <th ng-click="sort(atomic_radius)">Atomic Radius</th>
-        <th ng-click="sort(boiling_point_k)">Boiling Point(K)</th>
+        <th ng-click=scope.$apply("sort()")>Atomic Number</th>
+        <th >Element Name</th>
+        <th >Density</th>
+        <th >Atomic Radius</th>
+        <th >Boiling Point(K)</th>
       </tr>
     </thead>
     <tbody>
