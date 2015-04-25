@@ -2843,8 +2843,13 @@ angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function
   }
 };
 
-  vm.stringName = 'density';
+  $scope.stringName = 'density';
 
-  vm.results = _.sortBy(vm.result, vm.stringName);
+  $scope.setString = function(string){
+    $scope.stringName = string;
+    console.log($scope.stringName);
+  }
+
+  vm.results = _.sortBy(vm.result, $scope.stringName);
 
 });
