@@ -24,18 +24,18 @@
             </div>
 
             <div class="row" ng-repeat="result in search.currentSearchResults">
-                <div class="col-md-2">
+                <div class="col-md-4">
                     <h5>
                         <a ng-href="#" ng-click="search.moveToSpecificProfilePage(result)">
                             {{ result.name }}
                         </a>
                     </h5>
 		</div>
-                <div class="col-md-8">
+                <div class="col-md-7">
 			{{ result.context }}
 		</div>
-		<div class="col-md-2">
-			{{ result.result_type }}
+		<div class="col-md-1">
+			{{ result.result_type == "AND" ? "All Terms" : "Some Terms" }}
 		</div>
             </div>
         </div>
