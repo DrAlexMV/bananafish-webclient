@@ -2848,6 +2848,7 @@ angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function
   $scope.setString = function(string){
     $scope.stringName = string;
     console.log($scope.stringName);
+    vm.results = _.srotBy(vm.result, $scope.stringName);
   }
 
   vm.results = _.sortBy(vm.result, $scope.stringName);
