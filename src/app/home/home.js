@@ -7,9 +7,9 @@
 
 angular.module('bananafish.home', []).config(function ($stateProvider) {
 
-  var pathToTemplates = 'app/home/';
+  var pathToTemplates = 'app/#/';
 
-  $stateProvider    
+  $stateProvider
     .state('bf.home', {
       url: 'us',
       templateUrl: pathToTemplates + 'home.html',
