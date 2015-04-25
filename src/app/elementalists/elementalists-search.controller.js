@@ -2842,13 +2842,21 @@ angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function
     "year_of_discovery": null
   }
 };
+  $scope.previousString = 'atomic_number';
 
   $scope.stringName = 'atomic_number';
 
   $scope.setString = function(string){
+
     $scope.stringName = string;
     console.log($scope.stringName);
-    vm.results = _.sortBy(vm.result, $scope.stringName);
+    if($scope.previousString == string) {
+      vm.results = _.sortBy(vm.result, $scope.stringName).reverse();
+      $scope.previousString = "";
+    }
+    else
+      vm.results = _.sortBy(vm.result, $scope.stringName);
+    $scope.previousString = string;
   }
 
   vm.results = _.sortBy(vm.result, $scope.stringName);
