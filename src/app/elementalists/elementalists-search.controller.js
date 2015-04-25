@@ -2855,7 +2855,7 @@ angular.module('bananafish.elementalists').controller('ElemSearchCtrl', function
       $scope.previousString = "";
     }
     else
-      vm.results = _.sortBy(vm.result, $scope.stringName);
+      vm.results = _.sortBy(vm.result, $scope.stringName).reverse();
     $scope.previousString = string;
   }
 
